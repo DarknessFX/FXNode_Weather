@@ -20,6 +20,11 @@ Connect to your WiFi AP SSID List, gather data from OpenWeather and NTP, display
 M5StickC @ https://m5stack.com/collections/m5-core/products/stick-c <br/>
 <img src="https://github.com/DarknessFX/FXNode_Weather/blob/master/.git_img/M5Stick-C.jpg" width="250"/>
 
+## Prerequisites
+
+- Have a M5StickC (or adapt the code to any ESP32 + LCD).
+- Have M5StickC / ESP32 development environment. <br/> (example: ArduinoIDE + ESP32 @ Board Manager + ESP32 Pico @ Libraries Manager).
+
 ## Getting Started
 
 Before upload the code, change the following code lines :
@@ -31,14 +36,15 @@ WiFi_Data[0].ssid = "";            // Your WiFi AP SSID
 WiFi_Data[0].pass = "";            // Your WiFi AP Password
 ```
 
-### Prerequisites
-
-- Have a M5StickC (or adapt the code to any ESP32 + LCD).
-- Have M5StickC / ESP32 development environment. <br/> (example: ArduinoIDE + ESP32 @ Board Manager + ESP32 Pico @ Libraries Manager).
-
 ### Installing
 
 Compile and upload the project files to your M5StickC using your preferred development environment. 
+
+### Features
+
+Display presents current Clock (10secs) and Weather (20secs).
+Every 10 minutes the M5StickC updates the Weather API data.
+Click Button A (M5) to manually force the Weather API refresh.
 
 ## Versioning
 v1.0 - Released.
