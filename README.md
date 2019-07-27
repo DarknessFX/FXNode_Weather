@@ -10,7 +10,7 @@
     | '--------------' || '--------------' || '--------------' |
      '----------------'  '----------------'  '----------------' 
 
-           DarknessFX @ https://dfx.lv | Twitter: @DrkFX
+           DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: </a href="https://twitter.com/DrkFX">@DrkFX</a>
 
 # FXNode_Weather For M5StickC
 
