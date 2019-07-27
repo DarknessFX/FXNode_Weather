@@ -42,9 +42,9 @@ Compile and upload the project files to your M5StickC using your preferred devel
 
 ### Features
 
-Display presents current Clock (10secs) and Weather (20secs).
-Every 10 minutes the M5StickC updates the Weather API data.
-Click Button A (M5) to manually force the Weather API refresh.
+- Display presents current Clock (10secs) and Weather (20secs).
+- Every 10 minutes the M5StickC updates the Weather API data.
+- Click Button A (M5) to manually force the Weather API refresh.
 
 ## Versioning
 v1.0 - Released.
@@ -60,5 +60,5 @@ Thanks to :
   @ https://openweathermap.org/weather-conditions
 
 ## License
-DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: <a href="https://twitter.com/DrkFX">@DrkFX</a> <br/>
-@Copyleft all wrongs reserved.
+@Copyleft all wrongs reserved. <br/><br/>
+DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: <a href="https://twitter.com/DrkFX" target="_blank">@DrkFX</a> <br/>
