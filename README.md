@@ -10,14 +10,15 @@
     | '--------------' || '--------------' || '--------------' |
      '----------------'  '----------------'  '----------------' 
 
-           DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: </a href="https://twitter.com/DrkFX">@DrkFX</a>
+           DarknessFX @ https://dfx.lv | Twitter: @DrkFX
 
 # FXNode_Weather For M5StickC
 
 Connect to your WiFi AP SSID List, gather data from OpenWeather and NTP, display cycles the current Weather and Time.
 <img src="https://github.com/DarknessFX/FXNode_Weather/blob/master/.git_img/img1.jpg" width="200"/><img src="https://github.com/DarknessFX/FXNode_Weather/blob/master/.git_img/img2.jpg" width="200"/>
 
-M5StickC @ https://m5stack.com/collections/m5-core/products/stick-c
+M5StickC @ https://m5stack.com/collections/m5-core/products/stick-c <br/>
+<img src="https://github.com/DarknessFX/FXNode_Weather/blob/master/.git_img/M5Stick-C.jpg" width="250"/>
 
 ## Getting Started
 
@@ -33,7 +34,7 @@ WiFi_Data[0].pass = "";            // Your WiFi AP Password
 ### Prerequisites
 
 - Have a M5StickC (or adapt the code to any ESP32 + LCD).
-- Have M5StickC / ESP32 development environment. (example: ArduinoIDE + ESP32 @ Board Manager + ESP32 Pico @ Libraries Manager).
+- Have M5StickC / ESP32 development environment. <br/> (example: ArduinoIDE + ESP32 @ Board Manager + ESP32 Pico @ Libraries Manager).
 
 ### Installing
 
@@ -45,12 +46,13 @@ v1.0 - Released.
 ## Acknowledgments
 
 Thanks to :
-- McOrts for the Nixie Tube Clock.
-  Nixie tube clock simulated on ESP32 using the device M5Stick-C 
+- McOrts for the Nixie Tube Clock.<br/>
+  Nixie tube clock simulated on ESP32 using the device M5Stick-C <br/>
   @ https://github.com/McOrts/M5StickC_Nixie_tube_Clock
 
-- OpenWeather for the API Data and Weather Icons.
+- OpenWeather for the API Data and Weather Icons. <br/>
   @ https://openweathermap.org/weather-conditions
 
 ## License
+DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: <a href="https://twitter.com/DrkFX">@DrkFX</a> <br/>
 @Copyleft all wrongs reserved.
