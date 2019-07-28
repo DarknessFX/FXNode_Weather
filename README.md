@@ -61,4 +61,5 @@ Thanks to :
 
 ## License
 @Copyleft all wrongs reserved. <br/><br/>
-DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: <a href="https://twitter.com/DrkFX" target="_blank">@DrkFX</a> <br/>
+DarknessFX @ <a href="https://dfx.lv" target="_blank">https://dfx.lv</a> | Twitter: <a href="https://twitter.com/DrkFX" target="_blank">@DrkFX</a> <br/><br/>
+https://github.com/DarknessFX/FXNode_Weather
