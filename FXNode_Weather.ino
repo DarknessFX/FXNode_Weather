@@ -138,6 +138,12 @@ void setup() {
 void loop() {
   //Refresh API Data
   if ( m_Timer_WebRefresh < millis() ) {
+    WiFi_Status = WiFi.status();
+    if ( WiFi_Status != WL_CONNECTED) {
+      setup();
+      return;
+    }
+    
     WebRefresh();
     m_Timer_WebRefresh = millis() + WebAPI_reload;
     if ( web_success == true ) {
@@ -328,6 +334,7 @@ void WiFi_Connect(int _WiFi_ID) {
 
   // Connect to Wifi network
   WiFi_Status = WiFi.status();
+  int loopcount = 0;
   while ( WiFi_Status != WL_CONNECTED) { 
     M5.Lcd.print(".");
 
@@ -335,7 +342,12 @@ void WiFi_Connect(int _WiFi_ID) {
       WiFi_Status = WL_CONNECT_FAILED;
       break;
     }
-    
+   
+    if (loopcount > 100) {
+      WiFi_Status = WL_CONNECT_FAILED;
+      Serial.print("LoopCount > 100");
+      break;
+    }
     delay(500);
     WiFi_Status = WiFi.status();
   }
