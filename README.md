@@ -50,7 +50,8 @@ Compile and upload the project files to your M5StickC using your preferred devel
 
 ## Versioning
 
-v1.0 - Released.
+v1.1 - Improvements and fixes. (30/Jul/2020)
+v1.0 - Released. (27/Jul/2019)
 
 ## Acknowledgments
 
